@@ -1,0 +1,17 @@
+[package]
+name = "rusty-tesseract-custom"
+version = "1.1.4"
+edition = "2023"
+authors = ["thomasgruebl","Cjuan"]
+description = "A Rust wrapper for Google Tesseract"
+license = "MIT"
+repository = "https://github.com/thomasgruebl/rusty-tesseract"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+subprocess = "0.2.8"
+substring = "1.4.5"
+image = "0.23.14"
+thiserror = "1.0.40"
+tempfile = "3.4.0"

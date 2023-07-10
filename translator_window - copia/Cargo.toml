@@ -1,0 +1,15 @@
+[package]
+name = "translator_window"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+glium = "0.32.1"
+screenshots = "0.5.4"
+rusty-tesseract-custom = {path = "../rusty-tesseract-custom-1.1.4"}
+
+[scripts]
+dev = "cargo run"
+vamo = "cargo build --out-dir ../compileFile"

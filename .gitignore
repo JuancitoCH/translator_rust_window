@@ -1,0 +1,5 @@
+/target
+/capturaPantalla/*
+terminal.rs
+*.exe
+/Tesseract-OCR

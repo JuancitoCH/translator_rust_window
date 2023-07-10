@@ -1,0 +1,1 @@
+- You need to Have Tesseract-OCR folder with the content of that app at the level of the exe file
